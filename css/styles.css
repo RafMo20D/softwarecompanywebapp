@@ -1,0 +1,15 @@
+header {
+  background: url("../images/background.jpg");
+  width: "100%";
+  background-position: center;
+  background-size: cover;
+  min-height: 800px;
+}
+.section {
+  padding: 4vw 0;
+}
+@media screen and (max-width: 600px) {
+  header {
+    min-height: 500px;
+  }
+}
